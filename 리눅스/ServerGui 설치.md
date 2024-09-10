@@ -2,7 +2,7 @@ dnf update -y
 
 dnf grouplist
 
-dnf groupinstall "Server with GUI" "Graphical Administration Tools"
+dnf groupinstall "Workstation" -y
 
 
 systemctl get-default
