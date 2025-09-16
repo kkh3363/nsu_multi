@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <form action=""  >
+        <fieldset>
+            <legend>필수항목</legend>
+            <ul>
+                <li>
+                    <label for="name">이름</label>
+                    <input type="text" name="name" id="name">
+
+                </li>
+                <li>
+                    <label for="email">이메일 : </label>
+                    <input type="email" name="email" id="email">
+
+                </li>
+                <li>
+                    <label for="phone">전화번호 : </label>
+                    <input type="tel" name="phone" id="phone">
+
+                </li>
+                <li>
+                    <label for="password1">패스워드 : </label>
+                    <input type="password" name="password1" id="password1">
+
+                </li>
+                <li>
+                    <label for="password2">패스워드 확인 : </label>
+                    <input type="password" name="password2" id="password2">
+
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>선택항목</legend>
+            <ul>
+                <li>
+                    <input type="radio" name="mailling" id="mailling_yes" value="m_yes">
+                    <label for="mailling_yes">메일 수신</label>
+                    <input type="radio" name="mailling" id="mailling_no" value="m_no">
+                    <label for="mailling_no">수신 거부</label>
+                </li>
+                <li>관심사항</li>
+                <li>
+                    <input type="checkbox" name="hobby" id="h_sports" value="sports">
+                    <label for="h_sports">스포츠</label>
+                    <input type="checkbox" name="hobby" id="h_movie" value="movie">
+                    <label for="h_movie">영화</label>
+                    <input type="checkbox" name="hobby" id="h_travel" value="travel">
+                    <label for="h_travel">여행</label>
+                </li>
+            </ul>
+        </fieldset>
+        <input type="submit" value="제출"> 
+        <input type="reset" value="초기화">
+    </form>
+
+</body>
+</html>
