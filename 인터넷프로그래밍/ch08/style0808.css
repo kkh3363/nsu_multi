@@ -1,0 +1,31 @@
+a {
+    text-decoration: none;
+    color: #222;
+}
+#travel {
+    width: 1200px;
+    margin: 0 auto;
+}
+.title-text {text-align: center;}
+.title-text > h2 {
+    font-size: 2em; color: #919191;
+}
+.title-text > p {
+    font-size: 1.2em; color: #ccc;
+}
+.travel-list { padding: 10px;}
+.travel-card {
+    width: 250px; height: 340px;
+    float: left;
+    padding : 10px;
+    margin-right: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.travel-card img {
+    width: 150px; height: 150px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+}
+.travel-card p { font-size: 16px;}
